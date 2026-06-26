@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "OrbitCast Nova",
+    "slug": "orbitcast-nova",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Allow location access to fetch weather forecast for your current position."
+      }
+    },
+    "android": {
+      "package": "com.anubhavpostoffice.orbitcastnova",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#071826"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "04f7cbd4-200a-4c04-a22b-34fdc5b8b1b3"
+      }
+    },
+    "owner": "anubhav_postoffice"
+  }
+}
